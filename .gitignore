@@ -1,0 +1,12 @@
+.idea/dataSources/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+dist/
+node_modules/
+target/
+ifisco-api.iml
+package-lock.json
