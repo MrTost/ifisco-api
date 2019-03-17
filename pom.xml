@@ -6,7 +6,7 @@
 
     <groupId>br.com.ifisco</groupId>
     <artifactId>ifisco-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
