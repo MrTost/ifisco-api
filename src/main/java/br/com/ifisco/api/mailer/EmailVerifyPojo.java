@@ -2,9 +2,11 @@ package br.com.ifisco.api.mailer;
 
 import java.io.Serializable;
 import java.util.Locale;
+import java.util.UUID;
 
 public class EmailVerifyPojo implements Serializable {
 
+    private UUID id;
     private String name;
     private String email;
     private Locale locale;
@@ -12,10 +14,19 @@ public class EmailVerifyPojo implements Serializable {
     public EmailVerifyPojo() {
     }
 
-    public EmailVerifyPojo(String name, String email, Locale locale) {
+    public EmailVerifyPojo(UUID id, String name, String email, Locale locale) {
+        this.id = id;
         this.name = name;
         this.email = email;
         this.locale = locale;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
     }
 
     public String getName() {
