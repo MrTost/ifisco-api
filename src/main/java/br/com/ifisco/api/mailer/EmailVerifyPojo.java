@@ -6,6 +6,8 @@ import java.util.UUID;
 
 public class EmailVerifyPojo implements Serializable {
 
+    private static final long serialVersionUID = -7726904289529809666L;
+
     private UUID id;
     private String name;
     private String email;
